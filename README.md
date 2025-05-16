@@ -1,11 +1,11 @@
-Bolsa de Valores Bovespa 1994-2020
+### Bolsa de Valores Bovespa 1994-2020
 Projeto de Laboratório de Estrutura de Dados
 Este projeto tem como objetivo aplicar e analisar diferentes algoritmos de ordenação em um conjunto de dados reais da BOVESPA (Bolsa de Valores do Brasil), com registros de ações no período de 1994 a 2020.
 
-📁 Estrutura do Projeto
+### 📁 Estrutura do Projeto
 O projeto é dividido em três etapas principais:
 
-1. Transformações no arquivo original
+### 1. Transformações no arquivo original
 O arquivo original b3_stocks_1994_2020.csv contém dados como data, ticker, valores de abertura, fechamento, máximo, mínimo e volume negociado.
 
 As seguintes transformações são realizadas:
@@ -16,7 +16,7 @@ Filtro para manter apenas o registro com maior volume diário → b3stocks_F1.cs
 
 Filtro para manter apenas registros com volume acima da média diária → b3stocks_T1_Filtrado.csv
 
-2. Ordenações
+### 2. Ordenações
 Os algoritmos de ordenação utilizados são:
 
 Insertion Sort
@@ -47,7 +47,7 @@ Melhor caso
 
 Pior caso
 
-3. Análise de desempenho
+### 3. Análise de desempenho
 É feita a medição do tempo de execução de cada algoritmo em cada cenário.
 
 ### COMO EXECULTAR
